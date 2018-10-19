@@ -1,4 +1,4 @@
-# Grant.io Authentication Server
+# EIP-712 Server
 
 This service is used to recover EIP-712 message signers using `eth-sig-util`
 
