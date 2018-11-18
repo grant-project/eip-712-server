@@ -1,6 +1,6 @@
 import express from "express";
 
-import { MessageController } from "./controllers";
+import { MessageController, ContractController } from "./controllers";
 import bodyParser from "body-parser";
 import CORS from "cors";
 
@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 app.use(CORS());
 
 app.use("/message", MessageController);
+app.use("/contract", ContractController);
 
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/`);

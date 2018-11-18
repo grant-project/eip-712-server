@@ -14,11 +14,12 @@ router.post("/recover", (req: Request, res: Response) => {
 
   try {
     const recoveredAddress = recoveryFunction({
-      data: req.body.body,
+      data: req.body.data,
       sig: req.body.sig
     });
-    res.send(JSON.stringify({recoveredAddress}));
+    res.send(JSON.stringify({ recoveredAddress }));
   } catch (e) {
+    console.log(e);
     res.status(400);
     const message =
       "Something went wrong when attempting to recover the typed signature. Please try again after checking your data and sig";

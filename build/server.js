@@ -12,6 +12,7 @@ var port = Number(process.env.PORT) || 4000;
 app.use(body_parser_1.default.json());
 app.use(cors_1.default());
 app.use("/message", controllers_1.MessageController);
+app.use("/contract", controllers_1.ContractController);
 app.listen(port, function () {
     console.log("Listening at http://localhost:" + port + "/");
 });

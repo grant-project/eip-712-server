@@ -12,7 +12,7 @@
     "typescript": "^3.1.1"
   },
   "scripts": {
-    "tsc": "tsc",
-    "serve": "tsc && node build/server.js"
+    "tsc": "tsc --resolveJsonModule",
+    "serve": "tsc --resolveJsonModule && node build/server.js"
   }
 }
