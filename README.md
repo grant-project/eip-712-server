@@ -6,7 +6,7 @@ This service is used to recover EIP-712 message signers using `eth-sig-util`
 ### Development
 ```
 yarn
-yarn serve
+yarn start
 ```
 
 ### Endpoint

@@ -8,7 +8,7 @@ router.get("/crowd-fund", (req: Request, res: Response) => {
     res.send(JSON.stringify(CrowdFund))
 });
 
-router.get("/crowd-fund-factory", (req: Request, res: Response) => {
+router.get("/factory", (req: Request, res: Response) => {
     res.setHeader("Content-Type", "application/json");
     res.send(JSON.stringify(CrowdFundFactory))
 });
