@@ -5,8 +5,9 @@ This service is used to recover EIP-712 message signers using `eth-sig-util`
 
 ### Development
 ```
+export WEB3_HTTP_URI="https://..."
 yarn
-yarn start
+yarn tsc && yarn start
 ```
 
 ### Endpoint
