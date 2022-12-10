@@ -9,7 +9,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "eth-sig-util": "^2.1.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "typescript": "^3.1.1",
     "urbit-ob": "4.0.1",
     "web3": "1.0.0-beta.55"
